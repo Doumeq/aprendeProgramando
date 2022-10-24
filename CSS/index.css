@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-nav{
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 18px;
+    color: white;
+    transition: 250ms;
+}
+
+.btn-nav:hover{
+    color: black;
+}
+
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+
+header{
+    background-color: #2853a1;
+}
+
+nav{
+    display: inline;
+}
+
+footer{
+    background-color: antiquewhite;
+}
+
+article{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    overflow: hidden;
+    margin: 30px;
+    transition: all 0.25s;
+}
+
+.card h4{
+    font-weight: 600;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.presentacion{
+    display: flex;
+    gap: 15px;
+    margin: 10px 15px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    
+}
+
+#titulo{
+    margin: 10px 15px;
+}
+
+#presentacion{
+    text-align: center;
+}
