@@ -2,6 +2,10 @@ footer{
     position: relative;
 }
 
+footer .enlaces a{
+    margin-left: 9px;
+}
+
 .enlaces{
    position: absolute;
    right: 0;

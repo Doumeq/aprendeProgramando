@@ -5,11 +5,19 @@
     color: white;
 }
 
+@keyframes pan{
+    100% {background-position: 20% 20% ;}
+}
+
 body{
-    background-image: url("../img/login_bg.png");
+    background-image: url("../img/low-poly-grid-haikei.svg");
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-repeat: repeat-y;
     background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+    animation: pan 20s infinite alternate linear;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
 }
 
@@ -66,6 +74,7 @@ a:hover{
     border: 1px solid white;
     border-radius: 3px;
     margin-bottom: 10px;
+    padding: 3px;
 }
 
 .reg:hover{
@@ -120,4 +129,9 @@ a{
 
 input{
     padding: 5px;
+}
+
+#submit{
+    padding: 5px;
+
 }

@@ -47,6 +47,10 @@ article{
     transition: all 0.25s;
 }
 
+.card a{
+    margin-left: 10px;
+}
+
 .card h4{
     font-weight: 600;
 }
