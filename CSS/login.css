@@ -17,7 +17,7 @@ body{
     padding: 0 24px;
     background-repeat: repeat-y;
     background-size: cover;
-    animation: pan 20s infinite alternate linear;
+    animation: pan 15s infinite alternate linear;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
 }
 
@@ -31,11 +31,7 @@ h2{
     left: 50%;
     padding: 10px;
     border-radius: 15px;
-}
-
-#form{
-    background-color: #1177d1;
-    border-radius: 10px;
+    background-color: rgba(17, 119, 209, 0.7)
 }
 
 form input{
@@ -111,7 +107,8 @@ a:hover{
 }
 
 .forg:hover{
-    color: gray;
+    color: black;
+    transition: .25s;
 }
 
 #imagen{
