@@ -7,6 +7,8 @@
     <meta name="author" content="Fernando Nicolas Domeq">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/icons.css">
+    <link rel="stylesheet" href="CSS/tarjetas.css">
+    <link rel="stylesheet" href="CSS/slider.css">
     <title>E.T.32 Preguntas</title>
     <link rel="icon" href="img/favicon.png">
 </head>
@@ -38,31 +40,67 @@
             </div>
         </section>
     </main>
+
     <article>
-        <div class="card">
-            <a href="automotores.html">
-                <img src="img/automotores.png" alt=""  width="200px" height="200px">
-                <h3>Automotores</h3>
-            </a>
+        <div class="cont-card">
+      <a href="automotores.html" class="card">
+        <div class="face front">
+          <img src="img/automotores.png" alt="">
+          <h3>Automotores</h3>
         </div>
-        <div class="card">
-            <a href="computacion.html">
-                <img src="img/computacion.png" alt=""  width="200px" height="200px">
-                <h3>computación</h3>
-            </a>
+        <div class="face back">
+          <h3>Automotores</h3>
+          <p>Es una espcialidad que se focaliza en el estudio y analisis de todo lo referente a los vehiculos
+            automotores, desde la mecánica hasta la dinámica de los mismos</p>
+          <div class="link">
+            ¿Deseas Preguntar Algo?
+          </div>
         </div>
-        <div class="card">
-            <a href="mecanica.html">
-                <img src="img/mecanica.png" alt=""  width="200px" height="200px">
-                <h3>mecanica</h3>
-            </a>
+      </a>
+      <a href="computacion.html" class="card">
+        <div class="face front">
+          <img src="img/computacion.png" alt="">
+          <h3>Computación</h3>
         </div>
-        <br>
-    </article>
-    <div id="presentacion">
-        <video src="img/HET_ proyecto en nanotecnología - ET N° 32.mp4" controls autoplay loop width="560" height="315"></video>
+        <div class="face back">
+          <h3>Computación</h3>
+          <p> Es la tecnologia desarrollada para el tratamiento automático de la informacion mediante el uso de
+            computadoras </p>
+          <div class="link">
+            ¿Deseas Preguntar Algo?
+          </div>
+        </div>
+      </a>
+      <a href="mecanica.html" class="card">
+        <div class="face front">
+          <img src="img/mecanica.png" alt="">
+          <h3>Mecánica</h3>
+        </div>
+        <div class="face back">
+          <h3>Mecánica</h3>
+          <p> Es la ciencia que estudia el movimiento de los cuerpos bajo la accion de las fuerzas participantes.</p>
+          <div class="link">
+            ¿Deseas Preguntar Algo?
+          </div>
+        </div>
+      </a>
     </div>
-    <br> <br>
+    </article>
+
+    <div class="body">
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="img/escuela/aaa.jpg" alt="img" draggable="false">
+          <img src="img/escuela/entrada.jpg" alt="img" draggable="false">
+          <img src="img/escuela/escuela.jpg" alt="img" draggable="false">
+          <img src="img/escuela/frente.jpg" alt="img" draggable="false">
+          <img src="img/escuela/imgE.jpg" alt="img" draggable="false">
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
     <footer>
         <address>
             <h4>Contacto:</h4>
